@@ -68,10 +68,10 @@ RM = /home/jdavis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.12/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdavis/CLionProjects/lasm
+CMAKE_SOURCE_DIR = /home/jdavis/CLionProjects/LASM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdavis/CLionProjects/lasm/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jdavis/CLionProjects/LASM/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles /home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,33 @@ opcodes/mos_6502_family/6502/tax.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.s
 .PHONY : opcodes/mos_6502_family/6502/tax.c.s
 
+opcodes/mos_6502_family/mos_6502.o: opcodes/mos_6502_family/mos_6502.c.o
+
+.PHONY : opcodes/mos_6502_family/mos_6502.o
+
+# target to build an object file
+opcodes/mos_6502_family/mos_6502.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o
+.PHONY : opcodes/mos_6502_family/mos_6502.c.o
+
+opcodes/mos_6502_family/mos_6502.i: opcodes/mos_6502_family/mos_6502.c.i
+
+.PHONY : opcodes/mos_6502_family/mos_6502.i
+
+# target to preprocess a source file
+opcodes/mos_6502_family/mos_6502.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.i
+.PHONY : opcodes/mos_6502_family/mos_6502.c.i
+
+opcodes/mos_6502_family/mos_6502.s: opcodes/mos_6502_family/mos_6502.c.s
+
+.PHONY : opcodes/mos_6502_family/mos_6502.s
+
+# target to generate assembly for a file
+opcodes/mos_6502_family/mos_6502.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.s
+.PHONY : opcodes/mos_6502_family/mos_6502.c.s
+
 util/byte_array.o: util/byte_array.c.o
 
 .PHONY : util/byte_array.o
@@ -224,6 +251,33 @@ util/byte_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/util/byte_array.c.s
 .PHONY : util/byte_array.c.s
 
+util/list.o: util/list.c.o
+
+.PHONY : util/list.o
+
+# target to build an object file
+util/list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/util/list.c.o
+.PHONY : util/list.c.o
+
+util/list.i: util/list.c.i
+
+.PHONY : util/list.i
+
+# target to preprocess a source file
+util/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/util/list.c.i
+.PHONY : util/list.c.i
+
+util/list.s: util/list.c.s
+
+.PHONY : util/list.s
+
+# target to generate assembly for a file
+util/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/util/list.c.s
+.PHONY : util/list.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -239,9 +293,15 @@ help:
 	@echo "... opcodes/mos_6502_family/6502/tax.o"
 	@echo "... opcodes/mos_6502_family/6502/tax.i"
 	@echo "... opcodes/mos_6502_family/6502/tax.s"
+	@echo "... opcodes/mos_6502_family/mos_6502.o"
+	@echo "... opcodes/mos_6502_family/mos_6502.i"
+	@echo "... opcodes/mos_6502_family/mos_6502.s"
 	@echo "... util/byte_array.o"
 	@echo "... util/byte_array.i"
 	@echo "... util/byte_array.s"
+	@echo "... util/list.o"
+	@echo "... util/list.i"
+	@echo "... util/list.s"
 .PHONY : help
 
 

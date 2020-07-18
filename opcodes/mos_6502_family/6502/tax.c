@@ -4,6 +4,7 @@
 
 #include <stdlib.h>
 #include "../../opcode.h";
+#include "tax.h"
 
 ByteArray * Decode(ByteArray * input)
 {
@@ -14,7 +15,7 @@ ByteArray * Decode(ByteArray * input)
     return array;
 }
 
-OpCode * GetOpcode()
+OpCode * GetMos6502TaxOpCode()
 {
     OpCode * opcode = malloc(sizeof(OpCode));
     opcode->code = "tax";

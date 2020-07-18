@@ -14,6 +14,4 @@ typedef struct {
     ByteArray * code;
 } OpCode;
 
-OpCode * GetOpcode();
-
 #endif //LASM_OPCODE_H
