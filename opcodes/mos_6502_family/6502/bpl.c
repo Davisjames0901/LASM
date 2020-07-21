@@ -1,10 +1,9 @@
 //
-// Created by jdavis on 7/16/20.
+// Created by jdavis on 7/20/20.
 //
 
 #include <stdlib.h>
-#include "../../opcode.h";
-#include "tax.h"
+#include "../../opcode.h"
 #include "../../../util/list.h"
 
 List * Decode(List * input)
@@ -16,10 +15,9 @@ List * Decode(List * input)
     return list;
 }
 
-OpCode * GetMos6502TaxOpCode()
-{
+OpCode * GetMos6502BplOpCode(){
     OpCode * opcode = malloc(sizeof(OpCode));
-    opcode->code = "tax";
+    opcode->code = "bpl";
     opcode->processors = mos6502;
     opcode->decode = &Decode;
     return opcode;

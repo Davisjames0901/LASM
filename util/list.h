@@ -8,16 +8,19 @@
 #include <stdbool.h>
 
 typedef struct{
-    void * (*stream)();
+    char * content;
     int elementSize;
     int length;
     int capacity;
     int currentIndex;
-    bool * (*moveNext)();
-    void (*reset)();
 } List;
 
 List * InitializeList(int elementSize);
-List * InitializeListWith(int elementSize, int Capacity);
+List * InitializeListWithCapacity(int elementSize, int Capacity);
+
+void ListResetIndex(List * list);
+bool * ListMoveNext(List * list);
+void ListAdd(List* list, void* item);
+void * ListGetCurrentItem(List * list);
 
 #endif //LASM_LIST_H

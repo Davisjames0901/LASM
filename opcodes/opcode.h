@@ -6,12 +6,12 @@
 #define LASM_OPCODE_H
 
 #include "supported_proccesors.h"
-#include "../util/byte_array.h"
+#include "../util/list.h"
 
 typedef struct {
     SupportedProcessors processors;
-    ByteArray * (*decode)(ByteArray*);
-    ByteArray * code;
+    List * (*decode)(List*);
+    List * code;
 } OpCode;
 
 #endif //LASM_OPCODE_H

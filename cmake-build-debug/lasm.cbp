@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jdavis/CLionProjects/LASM/cmake-build-debug"/>
+				<Option working_dir="/home/jdavis/CLionProjects/lasm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jdavis/CLionProjects/LASM/cmake-build-debug"/>
+				<Option working_dir="/home/jdavis/CLionProjects/lasm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jdavis/CLionProjects/LASM/cmake-build-debug"/>
+				<Option working_dir="/home/jdavis/CLionProjects/lasm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lasm">
-				<Option output="/home/jdavis/CLionProjects/LASM/cmake-build-debug/lasm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jdavis/CLionProjects/LASM/cmake-build-debug"/>
+				<Option output="/home/jdavis/CLionProjects/lasm/cmake-build-debug/lasm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jdavis/CLionProjects/lasm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,15 +49,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 lasm"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 lasm"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lasm/fast">
-				<Option output="/home/jdavis/CLionProjects/LASM/cmake-build-debug/lasm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jdavis/CLionProjects/LASM/cmake-build-debug"/>
+				<Option output="/home/jdavis/CLionProjects/lasm/cmake-build-debug/lasm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jdavis/CLionProjects/lasm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,50 +67,50 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 lasm/fast"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jdavis/CLionProjects/LASM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 lasm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/jdavis/CLionProjects/lasm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/main.c">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/main.c">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/6502/tax.c">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/bpl.c">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/6502/tax.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/bpl.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/mos_6502.c">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/tax.c">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/mos_6502.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/tax.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/opcodes/opcode.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/mos_6502.c">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/opcodes/supported_proccesors.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/mos_6502.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/util/byte_array.c">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/opcode.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/util/byte_array.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/supported_proccesors.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/util/instruction_set.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/util/instruction_set.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/util/list.c">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/util/list.c">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/util/list.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/util/list.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/LASM/CMakeLists.txt">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

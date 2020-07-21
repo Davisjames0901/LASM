@@ -63,10 +63,10 @@ RM = /home/jdavis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.12/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdavis/CLionProjects/LASM
+CMAKE_SOURCE_DIR = /home/jdavis/CLionProjects/lasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdavis/CLionProjects/LASM/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jdavis/CLionProjects/lasm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lasm.dir/depend.make
@@ -79,88 +79,88 @@ include CMakeFiles/lasm.dir/flags.make
 
 CMakeFiles/lasm.dir/main.c.o: CMakeFiles/lasm.dir/flags.make
 CMakeFiles/lasm.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lasm.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/main.c.o   -c /home/jdavis/CLionProjects/LASM/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lasm.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/main.c.o   -c /home/jdavis/CLionProjects/lasm/main.c
 
 CMakeFiles/lasm.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lasm.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/LASM/main.c > CMakeFiles/lasm.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/lasm/main.c > CMakeFiles/lasm.dir/main.c.i
 
 CMakeFiles/lasm.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lasm.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/LASM/main.c -o CMakeFiles/lasm.dir/main.c.s
-
-CMakeFiles/lasm.dir/util/byte_array.c.o: CMakeFiles/lasm.dir/flags.make
-CMakeFiles/lasm.dir/util/byte_array.c.o: ../util/byte_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lasm.dir/util/byte_array.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/util/byte_array.c.o   -c /home/jdavis/CLionProjects/LASM/util/byte_array.c
-
-CMakeFiles/lasm.dir/util/byte_array.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lasm.dir/util/byte_array.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/LASM/util/byte_array.c > CMakeFiles/lasm.dir/util/byte_array.c.i
-
-CMakeFiles/lasm.dir/util/byte_array.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lasm.dir/util/byte_array.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/LASM/util/byte_array.c -o CMakeFiles/lasm.dir/util/byte_array.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/lasm/main.c -o CMakeFiles/lasm.dir/main.c.s
 
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o: CMakeFiles/lasm.dir/flags.make
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o: ../opcodes/mos_6502_family/6502/tax.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o   -c /home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/6502/tax.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o   -c /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/tax.c
 
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/6502/tax.c > CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/tax.c > CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.i
 
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/6502/tax.c -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/tax.c -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.s
 
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o: CMakeFiles/lasm.dir/flags.make
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o: ../opcodes/mos_6502_family/mos_6502.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o   -c /home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/mos_6502.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o   -c /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/mos_6502.c
 
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/mos_6502.c > CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/mos_6502.c > CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.i
 
 CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/LASM/opcodes/mos_6502_family/mos_6502.c -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/mos_6502.c -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.s
 
 CMakeFiles/lasm.dir/util/list.c.o: CMakeFiles/lasm.dir/flags.make
 CMakeFiles/lasm.dir/util/list.c.o: ../util/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lasm.dir/util/list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/util/list.c.o   -c /home/jdavis/CLionProjects/LASM/util/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lasm.dir/util/list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/util/list.c.o   -c /home/jdavis/CLionProjects/lasm/util/list.c
 
 CMakeFiles/lasm.dir/util/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lasm.dir/util/list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/LASM/util/list.c > CMakeFiles/lasm.dir/util/list.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/lasm/util/list.c > CMakeFiles/lasm.dir/util/list.c.i
 
 CMakeFiles/lasm.dir/util/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lasm.dir/util/list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/LASM/util/list.c -o CMakeFiles/lasm.dir/util/list.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/lasm/util/list.c -o CMakeFiles/lasm.dir/util/list.c.s
+
+CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.o: CMakeFiles/lasm.dir/flags.make
+CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.o: ../opcodes/mos_6502_family/6502/bpl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.o   -c /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/bpl.c
+
+CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/bpl.c > CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.i
+
+CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdavis/CLionProjects/lasm/opcodes/mos_6502_family/6502/bpl.c -o CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.s
 
 # Object files for target lasm
 lasm_OBJECTS = \
 "CMakeFiles/lasm.dir/main.c.o" \
-"CMakeFiles/lasm.dir/util/byte_array.c.o" \
 "CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o" \
 "CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o" \
-"CMakeFiles/lasm.dir/util/list.c.o"
+"CMakeFiles/lasm.dir/util/list.c.o" \
+"CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.o"
 
 # External object files for target lasm
 lasm_EXTERNAL_OBJECTS =
 
 lasm: CMakeFiles/lasm.dir/main.c.o
-lasm: CMakeFiles/lasm.dir/util/byte_array.c.o
 lasm: CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/tax.c.o
 lasm: CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.o
 lasm: CMakeFiles/lasm.dir/util/list.c.o
+lasm: CMakeFiles/lasm.dir/opcodes/mos_6502_family/6502/bpl.c.o
 lasm: CMakeFiles/lasm.dir/build.make
 lasm: CMakeFiles/lasm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable lasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable lasm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lasm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/lasm.dir/clean:
 .PHONY : CMakeFiles/lasm.dir/clean
 
 CMakeFiles/lasm.dir/depend:
-	cd /home/jdavis/CLionProjects/LASM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdavis/CLionProjects/LASM /home/jdavis/CLionProjects/LASM /home/jdavis/CLionProjects/LASM/cmake-build-debug /home/jdavis/CLionProjects/LASM/cmake-build-debug /home/jdavis/CLionProjects/LASM/cmake-build-debug/CMakeFiles/lasm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jdavis/CLionProjects/lasm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdavis/CLionProjects/lasm /home/jdavis/CLionProjects/lasm /home/jdavis/CLionProjects/lasm/cmake-build-debug /home/jdavis/CLionProjects/lasm/cmake-build-debug /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles/lasm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lasm.dir/depend
 
