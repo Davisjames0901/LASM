@@ -94,12 +94,12 @@ clean: CMakeFiles/lasm.dir/clean
 CMakeFiles/lasm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target lasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target lasm"
 .PHONY : CMakeFiles/lasm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lasm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lasm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdavis/CLionProjects/lasm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/lasm.dir/rule

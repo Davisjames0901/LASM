@@ -251,6 +251,60 @@ opcodes/mos_6502_family/mos_6502.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/opcodes/mos_6502_family/mos_6502.c.s
 .PHONY : opcodes/mos_6502_family/mos_6502.c.s
 
+processors/opcode_processor.o: processors/opcode_processor.c.o
+
+.PHONY : processors/opcode_processor.o
+
+# target to build an object file
+processors/opcode_processor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/processors/opcode_processor.c.o
+.PHONY : processors/opcode_processor.c.o
+
+processors/opcode_processor.i: processors/opcode_processor.c.i
+
+.PHONY : processors/opcode_processor.i
+
+# target to preprocess a source file
+processors/opcode_processor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/processors/opcode_processor.c.i
+.PHONY : processors/opcode_processor.c.i
+
+processors/opcode_processor.s: processors/opcode_processor.c.s
+
+.PHONY : processors/opcode_processor.s
+
+# target to generate assembly for a file
+processors/opcode_processor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/processors/opcode_processor.c.s
+.PHONY : processors/opcode_processor.c.s
+
+processors/preprocessor.o: processors/preprocessor.c.o
+
+.PHONY : processors/preprocessor.o
+
+# target to build an object file
+processors/preprocessor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/processors/preprocessor.c.o
+.PHONY : processors/preprocessor.c.o
+
+processors/preprocessor.i: processors/preprocessor.c.i
+
+.PHONY : processors/preprocessor.i
+
+# target to preprocess a source file
+processors/preprocessor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/processors/preprocessor.c.i
+.PHONY : processors/preprocessor.c.i
+
+processors/preprocessor.s: processors/preprocessor.c.s
+
+.PHONY : processors/preprocessor.s
+
+# target to generate assembly for a file
+processors/preprocessor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasm.dir/build.make CMakeFiles/lasm.dir/processors/preprocessor.c.s
+.PHONY : processors/preprocessor.c.s
+
 util/list.o: util/list.c.o
 
 .PHONY : util/list.o
@@ -299,6 +353,12 @@ help:
 	@echo "... opcodes/mos_6502_family/mos_6502.o"
 	@echo "... opcodes/mos_6502_family/mos_6502.i"
 	@echo "... opcodes/mos_6502_family/mos_6502.s"
+	@echo "... processors/opcode_processor.o"
+	@echo "... processors/opcode_processor.i"
+	@echo "... processors/opcode_processor.s"
+	@echo "... processors/preprocessor.o"
+	@echo "... processors/preprocessor.i"
+	@echo "... processors/preprocessor.s"
 	@echo "... util/list.o"
 	@echo "... util/list.i"
 	@echo "... util/list.s"

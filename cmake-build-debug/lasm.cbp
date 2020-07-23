@@ -101,7 +101,16 @@
 		<Unit filename="/home/jdavis/CLionProjects/lasm/opcodes/supported_proccesors.h">
 			<Option target="lasm"/>
 		</Unit>
-		<Unit filename="/home/jdavis/CLionProjects/lasm/util/instruction_set.h">
+		<Unit filename="/home/jdavis/CLionProjects/lasm/processors/opcode_processor.c">
+			<Option target="lasm"/>
+		</Unit>
+		<Unit filename="/home/jdavis/CLionProjects/lasm/processors/opcode_processor.h">
+			<Option target="lasm"/>
+		</Unit>
+		<Unit filename="/home/jdavis/CLionProjects/lasm/processors/preprocessor.c">
+			<Option target="lasm"/>
+		</Unit>
+		<Unit filename="/home/jdavis/CLionProjects/lasm/processors/preprocessor.h">
 			<Option target="lasm"/>
 		</Unit>
 		<Unit filename="/home/jdavis/CLionProjects/lasm/util/list.c">
